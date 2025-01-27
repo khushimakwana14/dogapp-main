@@ -40,7 +40,7 @@ const Home = () => {
                 );
               })
             ) : (
-              <h2 className="text-white">No Breed Found</h2>
+              <h2 className="text-black">No Breed Found</h2>
             )}
           </div>
         </div>

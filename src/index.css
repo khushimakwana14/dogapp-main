@@ -12,11 +12,39 @@
   object-fit: cover;
 }
 body {
-  background-color: #364059;
+  background-color: #E6E6FA;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+/* CSS */
+/* TopHeader.css */
+.logo-container {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* TopHeader.css */
+.logo-image {
+  max-width: 160px; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+
+
+
+
 .bg-dark {
-  background-color: #364059 !important;
+  background-color: #E6E6FA !important;
 }
 
 .form-control {
@@ -48,10 +76,10 @@ body {
 .fa-search {
   font-size: 15px;
   color: #fff !important;
-  border: 1px solid #f47651;
+  border: 1px solid #7c5295;
   outline: none;
-  background-color: #f47651;
-  border-color: #f47651;
+  background-color: #7c5295;
+  border-color: #7c5295;
   height: 75%;
   width: 50px;
   transition: all 0.5s ease-in-out;
@@ -113,7 +141,7 @@ a:hover {
   font-size: 1rem;
   margin-bottom: 2px;
   margin-bottom: 0;
-  color: #9fabb2;
+  color: black;
   -webkit-line-clamp: 4;
   display: -webkit-box;
   overflow: hidden;
@@ -126,27 +154,29 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #f47651 !important;
-  border-color: #f47651 !important;
+  background-color: #b4c5e4 !important;
+  border-color: #b4c5e4 !important;
+  color: black;
   padding: 6px 20px;
   margin: 10px auto;
   border-radius: 20px;
 }
 .btn-primary:hover {
-  background-color: #00cc6c !important;
-  border-color: #00cc6c !important;
+  background-color: #cbd4e4 !important;
+  border-color: #cbd4e4 !important;
+  color: black;
   transition: all 0.5s ease-in-out;
 }
 #details h4 {
   font-size: 2.3rem;
   padding-bottom: 5px;
-  color: #fff;
+  color: black;
 }
 
 #details p {
   font-size: 1.2rem;
   line-height: 1.7;
-  color: #999;
+  color: black;
   margin-bottom: 2px;
 }
 
@@ -155,23 +185,23 @@ a:hover {
   padding: 5px 0px;
 }
 #details .fas.fa-paw {
-  color: #f47651;
+  color: black;
   transform: rotate(-45deg);
 }
 #details .fas.fa-chevron-left {
-  color: #f9f9f9;
+  color:  #7c5295;
   font-size: 1.6rem;
   position: absolute;
   top: 0.5rem;
   left: 1rem;
 }
 #details .fas.fa-chevron-left:hover {
-  color: #00cc6c;
+  color:black;
   transition: all 0.5s ease-in-out;
 }
 
 #details p span {
-  color: #f9f9f9;
+  color: black;
 }
 #details img {
   width: 95%;
@@ -205,4 +235,26 @@ a:hover {
   #details .fas.fa-chevron-left {
     top: 0.3rem;
   }
+}
+
+/* CSS styles for the home icon */
+.home-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px; /* Adjust vertical margin as needed */
+  margin-right: 10px; /* Adjust horizontal margin as needed */
+}
+
+/* Style the anchor tag */
+.home-icon a {
+  display: block;
+  width: 30px; /* Set width of the anchor tag */
+  height: 30px; /* Set height of the anchor tag */
+}
+
+/* Style the image inside the anchor tag */
+.home-icon img {
+  width: 100%; /* Make the image fill the entire space of the anchor tag */
+  height: auto; /* Maintain aspect ratio */
 }

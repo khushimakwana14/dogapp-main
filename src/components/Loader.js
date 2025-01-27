@@ -3,7 +3,7 @@ const Loader = () => {
   return (
     <>
       <div className="d-flex justify-content-center align-items-center flex-column">
-        <img src="../images/loader.gif" className="" alt="Loader" />
+        <img src="../images/load.gif" className="" alt="Loader" />
       </div>
     </>
   );

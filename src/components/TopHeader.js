@@ -1,11 +1,15 @@
 import React from "react";
 
+
 const TopHeader = () => {
   return (
-    <div className="bg-dark">
-      <h3 className="text-white p-2 m-0 text-center">Breed Catalog</h3>
+    <div className="logo">
+      <img
+        src="images/breed logo.png"
+        alt="Breed Catalog Logo"
+        className="logo-image"
+      />
     </div>
   );
 };
-
 export default TopHeader;
